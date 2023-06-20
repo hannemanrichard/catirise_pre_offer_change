@@ -559,10 +559,20 @@ export default function Home() {
                 allowFullScreen
               ></iframe> */}
               <div className="text-right mt-0">
-                <img src="/01.jpg" className="my-3" />
-                <img src="/02.jpg" className="my-3" />
-                <img src="/03.jpg" className="my-3" />
-                <img src="/07.jpg" className="my-3" />
+                <img src="/00.webp" className="my-3" />
+                <img src="/01.webp" className="my-3" />
+                <img src="/02.webp" className="my-3" />
+                <img src="/03.webp" className="my-3" />
+                <img src="/001.webp" className="my-3" />
+                <img src="/04.webp" className="my-3" />
+                <img src="/05.webp" className="my-3" />
+                <img src="/06.webp" className="my-3" />
+                <img src="/010.webp" className="my-3" />
+                <img src="/011.webp" className="my-3" />
+                {/* <img src="/07.webp" className="my-3" /> */}
+                {/* <img src="/08.webp" className="my-3" /> */}
+                <img src="/frame-1.png" className="my-3" />
+                <img src="/frame2.png" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
