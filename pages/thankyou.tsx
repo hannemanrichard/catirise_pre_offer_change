@@ -26,7 +26,7 @@ export default function ThankYou() {
             </div>
             <div className="mt-3">
               <Link href="/">
-                <a className=" bg-rose-500 text-white px-6 py-3 rounded-lg font-bold">
+                <a className=" bg-orange-500 text-white px-6 py-3 rounded-lg font-bold">
                   أطلبي الآن
                 </a>
               </Link>

@@ -198,7 +198,7 @@ export default function Home() {
             <div className=" mt-3">
               <a
                 href="#form"
-                className=" bg-rose-600 hover:bg-rose-500 duration-150 ease-in-out text-white px-6 py-3 rounded-lg font-bold"
+                className=" bg-orange-600 hover:bg-orange-500 duration-150 ease-in-out text-white px-6 py-3 rounded-lg font-bold"
               >
                 أطلبي الآن
               </a>
@@ -315,12 +315,12 @@ export default function Home() {
                 id="form"
               >
                 <h1 className="text-3xl  font-bold text-center text-white">
-                  {/* <span className="text-rose-500">(30% تخفيض)</span> */}
+                  {/* <span className="text-orange-500">(30% تخفيض)</span> */}
                   <br /> أطلبي الآن واستفيدي من العرض{" "}
                 </h1>
 
                 <form action="#" method="post">
-                  {/* <div className="p-4 border border-rose-600 rounded-lg mt-6">
+                  {/* <div className="p-4 border border-orange-600 rounded-lg mt-6">
                     <h3 className="text-lg mt-4 text-center text-white">
                       قومي بإختيار اللون{" "}
                     </h3>
@@ -331,8 +331,8 @@ export default function Home() {
                       <div className="justify-end gap-1 flex-wrap flex mt-2">
                         <div
                           onClick={() => handleUpdateModel(1)}
-                          className={`flex cursor-pointer p-1 border-2 hover:border-rose-500 w-16 h-16 rounded-lg ${
-                            model === 1 ? "border-rose-500" : "border-gray-700"
+                          className={`flex cursor-pointer p-1 border-2 hover:border-orange-500 w-16 h-16 rounded-lg ${
+                            model === 1 ? "border-orange-500" : "border-gray-700"
                           }`}
                         >
                           <Image
@@ -345,8 +345,8 @@ export default function Home() {
                         </div>
                         <div
                           onClick={() => handleUpdateModel(2)}
-                          className={`flex cursor-pointer  p-1 border-2  hover:border-rose-500 w-16 h-16 rounded-lg ${
-                            model === 2 ? "border-rose-500" : "border-gray-700"
+                          className={`flex cursor-pointer  p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
+                            model === 2 ? "border-orange-500" : "border-gray-700"
                           }`}
                         >
                           <Image
@@ -359,8 +359,8 @@ export default function Home() {
                         </div>
                         <div
                           onClick={() => handleUpdateModel(3)}
-                          className={`flex cursor-pointer  p-1 border-2  hover:border-rose-500 w-16 h-16 rounded-lg ${
-                            model === 3 ? "border-rose-500" : "border-gray-700"
+                          className={`flex cursor-pointer  p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
+                            model === 3 ? "border-orange-500" : "border-gray-700"
                           }`}
                         >
                           <Image
@@ -373,8 +373,8 @@ export default function Home() {
                         </div>
                         <div
                           onClick={() => handleUpdateModel(4)}
-                          className={`flex cursor-pointer  p-1 border-2  hover:border-rose-500 w-16 h-16 rounded-lg ${
-                            model === 4 ? "border-rose-500" : "border-gray-700"
+                          className={`flex cursor-pointer  p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
+                            model === 4 ? "border-orange-500" : "border-gray-700"
                           }`}
                         >
                           <Image
@@ -394,16 +394,16 @@ export default function Home() {
                       <div className="grid grid-rows-2 gap-2 mt-2">
                         <div
                           onClick={() => setOffer(1)}
-                          className={`flex p-1 border-2 text-white cursor-pointer  hover:border-rose-500  text-center justify-center rounded-lg ${
-                            offer === 1 ? "border-rose-500" : "border-gray-700"
+                          className={`flex p-1 border-2 text-white cursor-pointer  hover:border-orange-500  text-center justify-center rounded-lg ${
+                            offer === 1 ? "border-orange-500" : "border-gray-700"
                           }`}
                         >
                           1 Ensemble (5800 DA)
                         </div>
                         <div
                           onClick={() => setOffer(2)}
-                          className={`flex p-1 border-2 text-white cursor-pointer  hover:border-rose-500  text-center justify-center rounded-lg ${
-                            offer === 2 ? "border-rose-500" : "border-gray-700"
+                          className={`flex p-1 border-2 text-white cursor-pointer  hover:border-orange-500  text-center justify-center rounded-lg ${
+                            offer === 2 ? "border-orange-500" : "border-gray-700"
                           }`}
                         >
                           2 Ensembles (9800 DA)
@@ -431,7 +431,7 @@ export default function Home() {
                       onChange={(e) => setFullName(e.target.value)}
                     />
                     {nameErr && (
-                      <p className="text-right text-rose-600 ">ادخل الاسم</p>
+                      <p className="text-right text-orange-600 ">ادخل الاسم</p>
                     )}
                   </div>
                   <div>
@@ -448,7 +448,7 @@ export default function Home() {
                       onChange={(e) => setNumber(e.target.value)}
                     />
                     {numberErr && (
-                      <p className="text-right text-rose-600">
+                      <p className="text-right text-orange-600">
                         الرجاء إدخال رقم الهاتف
                       </p>
                     )}
@@ -467,7 +467,7 @@ export default function Home() {
                       onChange={(e) => setProvince(e.target.value)}
                     />
                     {provinceErr && (
-                      <p className="text-right text-rose-600">
+                      <p className="text-right text-orange-600">
                         الرجاء إدخال الولاية
                       </p>
                     )}
@@ -492,7 +492,7 @@ export default function Home() {
                           30% تخفيض
                         </p> */}
                         <p className="sm:flex block text-center mt-12 justify-center">
-                          <span className="text-5xl text-rose-500 font-bold  block sm:inline">
+                          <span className="text-5xl text-orange-500 font-bold  block sm:inline">
                             {offer === 1 ? "2900" : "9800"} DA
                           </span>
                           {/* <span className=" text-white text-lg line-through block sm:inline">
@@ -505,7 +505,7 @@ export default function Home() {
 
                   <div>
                     {formErr && (
-                      <p className="text-center  bg-rose-600/60 py-3 rounded-lg mt-4">
+                      <p className="text-center  bg-orange-600/60 py-3 rounded-lg mt-4">
                         الرجاء إدخال جميع المعلومات
                       </p>
                     )}
@@ -516,7 +516,7 @@ export default function Home() {
                       onClick={handleAddLead}
                       disabled={isLoading}
                       type="submit"
-                      className="bg-rose-600 hover:bg-rose-500 duration-150 ease-in-out text-white button-bounce text-2xl rounded-lg w-full p-4 text-center  font-bold "
+                      className="bg-orange-600 hover:bg-orange-500 duration-150 ease-in-out text-white button-bounce text-2xl rounded-lg w-full p-4 text-center  font-bold "
                     >
                       {isLoading && <span className="loader"></span>}أطلبي الآن
                     </button>
@@ -528,7 +528,7 @@ export default function Home() {
                     province === "" ? (
                       <a
                         href="#form"
-                        className="bg-rose-500 text-white fixed bottom-3 left-3 right-3 text-xl rounded-lg  p-3 text-center  font-bold hover:bg-rose-400"
+                        className="bg-orange-500 text-white fixed bottom-3 left-3 right-3 text-xl rounded-lg  p-3 text-center  font-bold hover:bg-orange-400"
                       >
                         أطلبي الآن
                       </a>
@@ -537,7 +537,7 @@ export default function Home() {
                         onClick={handleAddLead}
                         disabled={isLoading}
                         type="submit"
-                        className="bg-rose-500 z-20 text-white fixed bottom-3 left-3 right-3 text-xl rounded-lg  p-3 text-center  font-bold hover:bg-rose-400"
+                        className="bg-orange-500 z-20 text-white fixed bottom-3 left-3 right-3 text-xl rounded-lg  p-3 text-center  font-bold hover:bg-orange-400"
                       >
                         {isLoading && <span className="loader"></span>}أطلبي
                         الآن
