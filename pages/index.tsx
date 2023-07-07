@@ -111,7 +111,7 @@ export default function Home() {
           phone: `${number}`,
           wilaya: province,
           commune: address,
-          product: `tampon-sourcils`,
+          product: `طابع الحواجب`,
           size: "",
           color: "",
           agent_id: agentId,
